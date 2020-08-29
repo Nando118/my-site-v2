@@ -1,0 +1,200 @@
+/* --------------------------- FONT --------------------------- */
+@font-face {
+  font-family: arc-font;
+  src: url(../font/ArchitectsDaughter-Regular.ttf);
+}
+/* --------------------------- ELEMENT HTML Style --------------------------- */
+body {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 100px auto 100px;
+  border: none;
+  border-top: 5px dotted #929292;
+  width: 50px;
+}
+
+/* --------------------------- Class HTML Style --------------------------- */
+
+/* --------------------------- TOP CONTAINER --------------------------- */
+.top-container {
+  padding-top: 10%;
+  background-color: #eaf6f6;
+  line-height: 2;
+}
+.cloud-1 {
+  display: inline-block;
+  position: absolute;
+  right: 25%;
+}
+
+.cloud-2 {
+  display: inline-block;
+  position: absolute;
+}
+
+.my-name {
+  font-size: 2.5rem;
+  color: #34495e;
+  font-family: arc-font, sans-serif;
+}
+
+.my-proffesion {
+  font-size: 1.3rem;
+  color: #34495f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.programmer {
+  text-decoration: underline;
+}
+
+/* --------------------------- MIDDLE CONTAINER --------------------------- */
+.mid-container {
+  padding-top: 5%;
+}
+
+/* My Profile */
+.img-profile {
+  width: 200px;
+}
+
+.say-hello {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.my-description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* My Skill */
+.my-skill-div {
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.my-skill {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+
+/* Web Developer Skill */
+.web-dev-img {
+  width: 190px;
+  float: left;
+  margin-right: 35px;
+}
+
+.web-developer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: left;
+}
+
+.web-dev-dec {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: left;
+}
+
+/* Java Skill */
+.java-dev-img {
+  width: 190px;
+  float: right;
+  margin-left: 35px;
+}
+
+.java-developer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: right;
+}
+
+.java-dev-dec {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: right;
+}
+
+/* My Motto */
+.motto {
+  width: 50%;
+  margin: 50px auto 50px;
+}
+
+.my-motto {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.my-motto-dec {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.contact-me-dec {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+/* Button Contact */
+.btn-contact-me {
+  background-color: #66bfbf;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.btn-contact-me:hover {
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.contact-me-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+/* --------------------------- BOTTOM CONTAINER --------------------------- */
+.bot-container {
+  background-color: #66bfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link-contact {
+  margin: 0px 20px;
+  line-height: 5;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copyright {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: .9rem;
+  color: white;  
+}
